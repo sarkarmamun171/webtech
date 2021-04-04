@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   body {
+	background-color: #fff;
+	color: #000;
+	font-family: 'proxima-nova', sans-serif;
+	font-size: 18px;
+	font-size: 1.8rem;
+	font-weight: 300;
+	line-height: 1.875;
+	margin: 0;
+    padding: 25px 80px;
+   
+   } 
+   h1{
+    font-family: 'Nova Round',cursive;
+   }  
+   p{
+    font-family: 'proxima-nova', sans-serif;
+    font-size: 30px;
+    line-height: 1.5;
+    
+   }
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 25px 80px;
+    background: linear-gradient(to top,transparent,rgba(0,0,0,0.6));
+}
+header .logo{
+    font-size: 28px;
+    font-weight: 700;
+    color: #fff;
+    
+    float: left;
+}
+header .menu{
+    float: right;
+    margin-top: 5px;
+    background: #333;
+}
+header ul li{
+    display: inline-block;
+}
+header ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+    margin: 0 25px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+.containar{
+    background: rgba(0, 0, 0, 0.5) url(../img/contact02.jpeg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 700px;
+    overflow: hidden;
+    background-blend-mode: overlay;
+}
+.contact-box{
+    width: 500px;
+    background-color: #fff;
+    box-shadow: 0 0 20px 0 #999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+form{
+    margin: 35px;
+}
+.input-field{
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    border: 1px solid #777;
+    border-radius: 14px;
+    outline: none;
+}
+.textarea-filed{
+    height: 150px;
+    padding-top: 10px;
+}
+.btn{
+    border-radius: 20px;
+    color: #fff;
+    margin-top: 18px;
+    padding: 10px;
+    background-color: #47c35a;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+}
